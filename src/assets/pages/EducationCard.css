@@ -2,3 +2,23 @@
     width: 20px;
     height: 20px;
 }
+/* h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--myRed);
+} */
+.educationCard p{
+    font-size: 1rem;
+    color: var(--myBlack);
+}
+.educationCard{
+
+    border-bottom: 1px solid #000;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+.education-content .majors{
+    font-size: 0.9rem;
+    color: var(--myBlack);
+    font-weight: 500;
+}

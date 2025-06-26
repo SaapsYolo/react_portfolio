@@ -86,3 +86,23 @@
         transform: translateY(0) scale(1);
     }
 }
+
+@media (max-width: 543px){
+    .project-card {
+        
+    }
+    .project_buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .project_buttons .btn-github-link{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .project_buttons .btn-site-link{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

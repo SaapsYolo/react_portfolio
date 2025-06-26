@@ -13,3 +13,9 @@
     transform: scale(1.05);
     transition: .5s ease-in-out;
 } 
+
+@media (max-width: 835px){
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+}

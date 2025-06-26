@@ -49,15 +49,17 @@ function MyWork () {
         <div class="bottomSectionWork">
             
             <div class="leftSectionWork">
+                <div class="softwareDevelopment">
+                    <a href="#MyWorkSection" id="SoftwareDevBtn" class="autoView">Software Development</a>
+
+                </div>
+
+                
                 <div class="uiUxDesign">
                     <a href="#MyWorkSection" id="UiUxBtn" class="autoView">Web & App Designs (UI/UX)</a>
                     
                 </div>
         
-                <div class="softwareDevelopment">
-                    <a href="#MyWorkSection" id="SoftwareDevBtn" class="autoView">Software Development</a>
-
-                </div>
             </div>
 
 
