@@ -23,17 +23,17 @@ function ContactMe () {
                         <li><a href="#">My Work</a></li>
                         <li><a href="#SkillsAndEducation">Education & Skills</a></li>
                     </ul>
-                    <a target="_blank" href="https://icons8.com">Icons by Icons8</a>
+                    <a target="_blank" href="https://icons8.com" rel="noreferrer">Icons by Icons8</a>
                 </div>
                 <div className="socials">
                     <h3>Social</h3>
                     <div className="iconsDiv">
                         <ul>
-                            <li><a href="https://x.com/saapsyolo" target="_blank">X (formaly known as Twitter)</a></li>
-                            <li><a href="https://www.linkedin.com/in/siyabulela-biyo-a50b97206" target="_blank">LinkedIn</a></li>
-                            <li><a href="">Discord</a></li>
-                            <li><a href="">YouTube</a></li>
-                            <li><a href="https://github.com/saapsyolo" target="_blank">Github</a></li>
+                            <li><a href="https://x.com/saapsyolo" rel="noreferrer" target="_blank">X (formaly known as Twitter)</a></li>
+                            <li><a href="https://www.linkedin.com/in/siyabulela-biyo-a50b97206" rel="noreferrer" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://discord.com " rel="noreferrer" target="_blank">Discord</a></li>
+                            <li><a href="Https://youtube.com" rel="noreferrer" target="_blank">YouTube</a></li>
+                            <li><a href="https://github.com/saapsyolo" rel="noreferrer" target="_blank">Github</a></li>
                         </ul>
                     </div>
                 </div>
