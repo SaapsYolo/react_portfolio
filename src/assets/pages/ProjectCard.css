@@ -64,10 +64,15 @@
     gap: 5px;
     align-items: center;
 }
-
+.btn-site-link:hover{
+    color: #F28202;
+}
 .btn-github-link {
     color: #000;
     border: 1px solid #AF52DE;
+}
+.btn-github-link:hover{
+    color: #AF52DE;
 }
 
 
