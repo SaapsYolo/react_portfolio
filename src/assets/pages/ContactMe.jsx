@@ -1,7 +1,21 @@
 import React from 'react'
 import './Styling.css';
+import { useEffect } from 'react';
 
 function ContactMe () {
+    useEffect(() => {
+        const submitButton = document.getElementById("SubmitButton");
+        const nameInput = document.getElementById("Name");
+        // Add an event listener to the submit button
+        submitButton.addEventListener("click", event =>{
+            if (nameInput.value === "") {
+                event.preventDefault();
+                return;}
+    alert(`Thank you ${nameInput.value} for your message! I will get back to you as soon as possible.`);
+    document.getElementById("Name").value = "";
+});
+
+    }, []);
   return (
   <div className="contactMeSection" id="ContactMeSection">
         <div className="introSection">
@@ -44,7 +58,7 @@ function ContactMe () {
                 </h3>
                 <form action="https://formsubmit.co/siya.biyo.bongi@gmail.com" method="POST">
                     <label htmlFor="Subject">Name</label>
-                    <input type="text" name="name" placeholder="John Doe"/>
+                    <input type="text" name="name" id="Name" placeholder="John Doe"/>
                     <label htmlFor="Email">Email</label>
                     <input type="email" name="email" placeholder="john.doe@example.com" required/>
                     <label htmlFor="Message">Message</label>

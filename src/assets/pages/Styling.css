@@ -11,14 +11,18 @@
     --myOrange: #F28202;
     
 }
+html{
+    scroll-behavior: smooth
+}
 body{
     min-height: 100vh;
     max-width: 100vw;
     overflow-x: hidden;
     font-family: "Inter", sans-serif ;
-    scroll-behavior: smooth;
-    
-    
+      
+    /* opacity: 0; */
+    /* transform: translateY(40px); */
+    /* animation: fadeInBody 1s ease-in forwards; */
 }
 
 nav{
@@ -576,6 +580,12 @@ footer a{
     to {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+@keyframes fadeInBody{
+    to{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 

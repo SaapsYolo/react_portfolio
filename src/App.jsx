@@ -9,10 +9,12 @@ import MyWork from './assets/pages/MyWork';
 import SkillsAndEducation from './assets/pages/SkillsAndEducation';
 import ContactMe from './assets/pages/ContactMe';
 import { Footer } from './assets/pages/Footer';
+import WebUpgrades from './assets/pages/WebUpgrades';
 
 function App() {
   return (
     <div>
+      <WebUpgrades />
       <Navigation />
       <Hero />
       <ScrollDown />
