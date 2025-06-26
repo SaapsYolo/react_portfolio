@@ -1,14 +1,16 @@
 import React from 'react'
 import './Styling.css'; 
-import heroImage from '../images/IMG_2072.jpg'; // Assuming you have an image in the images folder
+import heroImage from '../images/IMG_2072.jpg'; 
+import downloadIcon from '../icons/download icon.png'; 
+import dottedGrid from '../images/dotted-grid.webp';
+import cv from '../pdf/SIYABULELA BIYO CV printout.pdf';
 
 function Hero (){
   return (
     <div>
-         <div class="orangeCircle"></div>
-    <div class="indigoCircle"></div>
-   
+         <div className="dotted-grid" />
         <div class="heroSection">
+            <div class="orangeCircle"></div>
             <div class="heroText">
             <h3>Hi there!</h3>
             <h2>I am <span>Siyabulela Biyo,</span></h2>
@@ -30,11 +32,13 @@ function Hero (){
             <div class="twoButtonsHero">
                 <a href="#ContactMeSection" class="hireMeBtn">Hire Me</a>
                 <div class="gradientBorder">
-                    <a href="/Assets/pdf/SIYABULELA BIYO CV printout.pdf" target="_blank" class="downloadCvBtn">Download CV</a>
+                    <a href={cv} target="_blank" class="downloadCvBtn">Download CV <img src={downloadIcon} alt="" /></a>
                 </div>
             </div>
         </div>
+
         <div class="heroImage">
+            <div class="indigoCircle"></div>
             <img src={heroImage}  alt=""/>
         </div>
     </div>

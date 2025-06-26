@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import './Styling.css'; 
 import educationImage from '../images/IMG_5752-2.jpg'; // Adjust the path as necessary
+import Education from './Education';
 
 function SkillsAndEducation () {
     useEffect(() => {
@@ -49,21 +50,16 @@ function SkillsAndEducation () {
                 {/* <!-- <h3>Education</h3> --> */}
                 <div class="circle4"></div>
                 <div class="imageAndText">
-                    <div><img src={educationImage}  alt=""/></div>
-                    <div class="educationText">
-                        <h3><img src="Assets/icons/icons8-institution-50.png" alt=""/>Institution:  <span>Vaal University of Technology</span></h3>
-                        <h3><img src="Assets/icons/icons8-certificate-50.png" alt=""/>Qualification: <span>Advanced Diploma in Information Technology</span></h3>
-                        <h3><img src="Assets/icons/icons8-calendar-50.png" alt=""/>Year: <span>2024</span></h3><br/><br/>
-                        <h3><img src="Assets/icons/icons8-institution-50.png" alt=""/>Institution: <span>Vaal University of Technology</span></h3>
-                        <h3><img src="Assets/icons/icons8-certificate-50.png" alt=""/>Qualification: <span>Diploma in Information Technology (Software Development)</span></h3>
-                        <h3><img src="Assets/icons/icons8-calendar-50.png" alt=""/>Year: <span>2023</span></h3>
+                    <div><img src={educationImage}  alt="" class="myEducationImage"/></div>
+                    <div class="educationText autoSlideLeft">
+                    <Education />
                     </div>
                 </div>
                 
             </div>
         
             <div class="skillsSection" id="Skills">
-                <h3>Technical Skills</h3>
+                <h3 class="autoView">Technical Skills</h3>
                 <div class="circle3"></div>
                 <ul>
                     <li><img src="Assets/icons/icons8-sql-database-56.png" alt=""/>

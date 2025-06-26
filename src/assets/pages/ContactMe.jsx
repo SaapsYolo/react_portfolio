@@ -14,7 +14,7 @@ function ContactMe () {
         </div>
 
         <div className="secondSection">
-            <div className="leftSection">
+            <div className="leftSection" >
                 <div className="usefulLinks">
                     <h3>Useful Links</h3>
                     <ul>

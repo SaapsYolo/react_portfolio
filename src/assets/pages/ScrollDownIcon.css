@@ -1,0 +1,48 @@
+.scrollDownSection{
+    padding: 1rem 0;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5rem;
+}
+.scrollDownIcon {
+    width: 40px;
+    height: 60px;
+    box-shadow: 0 0 10px #F28202;
+    /* border: 1px solid #000; */
+    border-radius: 40px;
+    animation: pulse 1.5s infinite;
+    align-items: center;
+    /* background: #fff; */
+    /* border: 2px solid #F28202; */
+}
+div .scrollDownIcon{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    10% {
+        transform: translateY(10px);
+    }
+}
+@keyframes pulse{
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #F28202;
+    }
+    70% {
+        transform: scale(1.08);
+        box-shadow: 0 0 0 16px rgba(242, 130, 2, 0);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(242, 130, 2, 0);
+    }
+}

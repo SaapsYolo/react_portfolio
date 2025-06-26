@@ -1,7 +1,8 @@
 import React from 'react'
 import { useEffect } from 'react';
 import './Styling.css';
-import Projects from './Projects';
+import UiUxProjects from './UiUxProjects';
+import SoftwareDevProjects from './SoftwareDevProjects';
 
 function MyWork () {
     useEffect(() => {
@@ -40,33 +41,33 @@ function MyWork () {
 });
 
   return (
-    <div>
+    <div >
         <div class="myWorkSection" id="MyWorkSection">
         <div class="topSectionWork">
-            <h3>My Work</h3>
+            <h3 class="autoView">My Work</h3>
         </div>
         <div class="bottomSectionWork">
             
             <div class="leftSectionWork">
                 <div class="uiUxDesign">
-                    <a href="#MyWorkSection" id="UiUxBtn">Web & App Designs (UI/UX)</a>
+                    <a href="#MyWorkSection" id="UiUxBtn" class="autoView">Web & App Designs (UI/UX)</a>
                     
                 </div>
         
                 <div class="softwareDevelopment">
-                    <a href="#MyWorkSection" id="SoftwareDevBtn">Software Development</a>
-               
+                    <a href="#MyWorkSection" id="SoftwareDevBtn" class="autoView">Software Development</a>
+
                 </div>
             </div>
 
 
             <div class="rightSectionWork">
                 <div class="designs" id="UiUxContent">
-                    <Projects />
+                    <UiUxProjects />
                 </div>
         
                 <div class="designs" id="SoftwareDevContent">
-                   <Projects />
+                   <SoftwareDevProjects />
                 </div>
                
             </div>

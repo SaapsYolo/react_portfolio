@@ -1,3 +1,4 @@
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -8,3 +9,7 @@
     justify-items: center;
     text-align: center;
 }
+ .project-card:hover{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+} 

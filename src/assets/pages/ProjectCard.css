@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    animation: autoShowText  ease-in-out both;
+    animation-timeline: view(95% .1%);
 }
 
 
@@ -18,10 +20,10 @@
     width: 100%;
     height: 160px;
     object-fit: cover;
+    
 }
-
 .project-content {
-    padding: 1rem;
+    padding: .5rem .2rem;
 }
 
 .tech-stack {
@@ -59,9 +61,23 @@
 .btn-site-link {
     background: #000;
     color: #fff;
+    gap: 5px;
+    align-items: center;
 }
 
 .btn-github-link {
     color: #000;
     border: 1px solid #AF52DE;
+}
+
+
+@keyframes autoShowText {
+    from {
+        opacity: 0;
+        transform: translateY(200px) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
 }
