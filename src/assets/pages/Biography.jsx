@@ -7,7 +7,7 @@ function Biography () {
     <div class="aboutSection" id="MyBio">
         <div class="aboutText">
             <h3 class="autoView" >My Biography!</h3>
-            <p class="autoBlur" style={{padding: "1rem 0"}}>I am a passionate and driven young developer eager to learn and explore new technologies. With a
+            <p  style={{padding: "1rem 0"}}>I am a passionate and driven young developer eager to learn and explore new technologies. With a
             solid foundation in Java, SQL, HTML, and PHP acquired at university, I have also taught myself crossplatform
             mobile development using Flutter. <br/><br/>
             I aspire to become a full-stack developer, leveraging object-oriented programming languages like

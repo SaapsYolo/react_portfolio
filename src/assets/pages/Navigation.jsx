@@ -86,7 +86,7 @@ function Navigation () {
             <li><a href="#MyBio" id="Bio">Bio</a></li>
             <li><a href="#MyWorkSection" id="MyWork">My Work</a></li>
             <li><a href="#SkillsAndEducation" id="EducationAndSkills">Education & Skills</a></li>
-            <div class="gradientBorder" id="MobileResponsiveContactMe">
+            <div class="gradientBorder responsive" id="MobileResponsiveContactMe">
                 <a href="#ContactMeSection" class="contactMeBtn" id="MobileResponsiveContactMe">Contact Me</a>
             </div>
         </ul>

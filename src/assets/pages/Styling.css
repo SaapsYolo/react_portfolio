@@ -64,12 +64,17 @@ nav ul a:hover{
     transition: .2s ease-in-out ;
     color: var(--myRed);
 }
-
 .gradientBorder{
     background: linear-gradient(to right, #F28202, #FF5E5E);
     padding: 1px;
     display: inline-block;
     /* border-radius: 20px; */
+}
+.gradientBorder.responsive{
+    background: linear-gradient(to right, #F28202, #FF5E5E);
+    padding: 1px;
+    display: inline-block;
+    border-radius: 20px;
 }
 .contactMeBtn:hover{
     background-color: var(--myOrange);
