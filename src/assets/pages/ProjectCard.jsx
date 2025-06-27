@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProjectCard.css'; 
 import siteIcon from '../icons/arrow_outward.png';
+import githubIcon from '../icons/github.png';
 
 const ProjectCard = ({image, name, description, techstack, siteLink, githubLink}) => {
   return (
@@ -19,7 +20,7 @@ const ProjectCard = ({image, name, description, techstack, siteLink, githubLink}
                 }
             </div>
             <div className="project_buttons">
-                <a href={githubLink} target='_blank' rel="noopener noreferrer" className='btn-github-link'>View GitHub</a>
+                <a href={githubLink} target='_blank' rel="noopener noreferrer" className='btn-github-link'>View GitHub <img src={githubIcon} alt="" class="github-icon" style={{height: '20px', width: '20px'}}/> </a>
                 <a href={siteLink} target='_blank' rel="noopener noreferrer" className='btn-site-link'>View Full Site <img src={siteIcon} alt="" style={{height: '20px', width: '20px'}} /></a>
             </div>
         </div>
