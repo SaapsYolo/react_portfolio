@@ -10,15 +10,17 @@ import SkillsAndEducation from './assets/pages/SkillsAndEducation';
 import ContactMe from './assets/pages/ContactMe';
 import { Footer } from './assets/pages/Footer';
 import WebUpgrades from './assets/pages/WebUpgrades';
+import PreMyWork from './assets/pages/PreMyWork';
 
 function App() {
   return (
     <div>
-      <WebUpgrades />
+      {/* <WebUpgrades /> */}
       <Navigation />
       <Hero />
       <ScrollDown />
       <Biography />
+      <PreMyWork />
       <MyWork />
       <SkillsAndEducation />
       <ContactMe />

@@ -1,0 +1,21 @@
+.preMyWork-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.preMyWork-description{
+    font-weight: 600;
+    color: #6c757d;
+}
+.preMyWork-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.preMyWork-cardSection{
+    display: flex;
+    text-align: center;
+    padding: 5rem;
+    gap: 3rem;           /* Optional: add space between cards */
+    justify-content: center; /* Optional: center the row */
+    align-items: stretch;    /* Optional: align items vertically */
+}
