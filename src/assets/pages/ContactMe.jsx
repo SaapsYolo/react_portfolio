@@ -45,8 +45,8 @@ function ContactMe () {
                         <ul>
                             <li><a href="https://x.com/saapsyolo" rel="noreferrer" target="_blank">X (formaly known as Twitter)</a></li>
                             <li><a href="https://www.linkedin.com/in/siyabulela-biyo-a50b97206" rel="noreferrer" target="_blank">LinkedIn</a></li>
-                            <li><a href="https://discord.com " rel="noreferrer" target="_blank">Discord</a></li>
-                            <li><a href="Https://youtube.com" rel="noreferrer" target="_blank">YouTube</a></li>
+                            <li><a href="https://discord.com/users/saapsyolo" rel="noreferrer" target="_blank">Discord</a></li>
+                            <li><a href="Https://youtube.com/@saapsyolo" rel="noreferrer" target="_blank">YouTube</a></li>
                             <li><a href="https://github.com/saapsyolo" rel="noreferrer" target="_blank">Github</a></li>
                         </ul>
                     </div>
