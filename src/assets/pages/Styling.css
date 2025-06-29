@@ -589,7 +589,7 @@ footer a{
     }
 }
 
-@media (max-width: 800px)  {
+@media (max-width: 801px)  {
     nav{
         flex-direction: row;
         justify-content: space-around;
@@ -699,7 +699,7 @@ footer a{
         width: auto;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 800px){
     .skillsSection ul{
         margin-top: 2rem;
     }
@@ -742,14 +742,7 @@ footer a{
         width: 14rem;
         height: 14rem;
     }
-    .skillsSection ul{
-        margin-top: 2rem;
-    }
-    .skillsSection li{
-        
-        padding-bottom: 2rem;
-        border-bottom: 1px solid rgba(0, 0, 0, .2);
-    }
+
     .contactMeSection .secondSection{
         display: flex;
         flex-direction: column-reverse;
