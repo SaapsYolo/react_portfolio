@@ -4,6 +4,7 @@ import './Projects.css';
 import potfolio from '../images/potfolio page.PNG';
 import bigOProperties from '../images/BigO Properties.PNG';
 import yummy from '../images/yummy.png';
+import crudBackground from '../images/7100345.jpg'
 
 function Projects () {
   return (
@@ -36,6 +37,15 @@ function Projects () {
                   contact the owner, and view property details.
                   Hosted Netify."
                   techstack={['Html', 'CSS']}
+                  siteLink="https://example.com"
+                  githubLink="https://github.com"
+                  />
+                  <ProjectCard
+                  image={crudBackground}
+                  name="Waste Management System (back-end)"
+                  description="This is a waste management system that allows users to manage waste collection and disposal.
+                  It is a CRUD application with a RESTful API build. Tested using Postman. Currently working on the front-end, and hosting."
+                  techstack={['Java', 'Springboot', 'H2 Database']}
                   siteLink="https://example.com"
                   githubLink="https://github.com"
                   />
