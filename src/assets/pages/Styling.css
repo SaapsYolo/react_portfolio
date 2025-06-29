@@ -699,7 +699,16 @@ footer a{
         width: auto;
     }
 }
-
+@media (max-width: 768px){
+    .skillsSection ul{
+        margin-top: 2rem;
+    }
+    .skillsSection li{
+        
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
+}
 @media (max-width: 543px){
     .heroSection .heroImage img{
         width: 200px;
@@ -732,6 +741,14 @@ footer a{
         display: block;
         width: 14rem;
         height: 14rem;
+    }
+    .skillsSection ul{
+        margin-top: 2rem;
+    }
+    .skillsSection li{
+        
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
     }
     .contactMeSection .secondSection{
         display: flex;

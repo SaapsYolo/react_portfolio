@@ -3,6 +3,8 @@ import { useEffect } from 'react';
 import './Styling.css'; 
 import educationImage from '../images/IMG_5752-2.jpg'; // Adjust the path as necessary
 import Education from './Education';
+import sqlIcon from '../icons/sql.png'
+import javascriptIcon from '../icons/javascript.png'
 
 function SkillsAndEducation () {
     useEffect(() => {
@@ -62,7 +64,7 @@ function SkillsAndEducation () {
                 <h3 class="autoView">Technical Skills</h3>
                 <div class="circle3"></div>
                 <ul>
-                    <li><img src="Assets/icons/icons8-sql-database-56.png" alt=""/>
+                    <li><img src={sqlIcon} alt=""/>
                         <div class="progressContainer">
                             <div class="progressBar" style={{ width: '70%' }}>70%</div>
                         </div>
@@ -82,7 +84,7 @@ function SkillsAndEducation () {
                             <div class="progressBar" style={{ width: '70%' }}>70%</div>
                         </div>
                     </li>
-                    <li><img src="Assets/icons/icons8-javascript.gif" alt=""/>
+                    <li><img src={javascriptIcon} alt=""/>
                         <div class="progressContainer">
                             <div class="progressBar" style={{ width: '40%' }}>40%</div>
                         </div>
