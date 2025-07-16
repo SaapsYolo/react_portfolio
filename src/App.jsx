@@ -11,6 +11,7 @@ import ContactMe from './assets/pages/ContactMe';
 import { Footer } from './assets/pages/Footer';
 import WebUpgrades from './assets/pages/WebUpgrades';
 import PreMyWork from './assets/pages/PreMyWork';
+import FeaturedPost from './assets/pages/FeaturedPost';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <PreMyWork />
       <MyWork />
       <SkillsAndEducation />
+      <FeaturedPost />
       <ContactMe />
       <Footer />
     </div>
