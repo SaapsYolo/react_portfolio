@@ -5,6 +5,7 @@ import potfolio from '../images/potfolio page.PNG';
 import bigOProperties from '../images/BigO Properties.PNG';
 import yummy from '../images/yummy.png';
 import crudBackground from '../images/7100345.jpg'
+import quiz from '../images/quiz.png';
 
 function Projects () {
   return (
@@ -48,6 +49,14 @@ function Projects () {
                   techstack={['Java', 'Springboot', 'H2 Database']}
                   siteLink="https://example.com"
                   githubLink="https://github.com"
+                  />
+                  <ProjectCard
+                  image={quiz}
+                  name="Are You Smarter Than A 5th Grader Quiz App"
+                  description="This a fun game to play, whether on desktop or mobile, to kill boredom and tease your brain. App is hosted on Netlify."
+                  techstack={['Javascript', 'React', 'CSS']}
+                  siteLink="https://saapsquiz.netlify.app/"
+                  githubLink="https://github.com/SaapsYolo/smarter-than"
                   />
             </div>
 
